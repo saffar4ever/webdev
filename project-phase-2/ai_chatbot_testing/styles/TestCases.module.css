@@ -1,0 +1,28 @@
+/* Button styles */
+.addButton,
+.backButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover,
+.backButton:hover {
+  background-color: #0056b3;
+}
+
+/* Page layout */
+.testCases,
+.addTestCase {
+  padding: 20px;
+}
+
+.testCases h1,
+.addTestCase h1 {
+  margin-bottom: 20px;
+}
